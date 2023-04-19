@@ -199,3 +199,21 @@ nav a:hover{
     text-decoration: none;
     border-bottom: 1px solid #4b4a4a3a;
 }
+article .info_data{
+    display: flex;
+}
+article .info_data_post{
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 100;
+    margin-right: 2px;
+}
+article .info_data_comet{
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 100;
+}
