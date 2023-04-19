@@ -133,6 +133,9 @@ nav a:hover{
 #all aside{
     flex: 1;
 }
+.anuncio{
+    width: 330px;
+}
 .anuncio_titulo{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -160,9 +163,39 @@ nav a:hover{
 .anuncio_texto{
     width: 255px;
     font-size: 15px;
+    color: #727272;
 }
 .anuncio_conteudo{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+.button_next{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.button_next a{
+    margin: 2px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 15px;    
+}
+.button_next a:hover{
+    background-color: #39aae1;
+    color: #ffffff; 
+}
+.anuncio_section{
+    display: flex;
+    flex-direction: column;
+}
+.anuncio_section a{
+    padding: 10px;
+    color: #727272;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #4b4a4a3a;
 }
