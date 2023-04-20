@@ -140,6 +140,7 @@ nav a:hover{
 .anuncio_subtitulo{
     color: #000;
     font-size: 21px;
+    margin-bottom: 20px;
 }
 .anuncio_barra{
     width: 50px;
@@ -172,6 +173,7 @@ nav a:hover{
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 20px;
 
 }
 .button_next a{
@@ -189,25 +191,26 @@ nav a:hover{
 .anuncio_section{
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 .anuncio_section a{
     padding: 10px;
     color: #727272;
     font-size: 20px;
+    margin-bottom: 8px;
     text-decoration: none;
     border-bottom: 1px solid #4b4a4a3a;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
-
 }
 article{
     flex: 1;
     min-width: 250px;
     margin-right: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #7c7878 ;
+    border-bottom: 1px solid #cfcdcd;
 }
 article .anuncio_texto_resumo{
     text-decoration: none;
@@ -231,28 +234,55 @@ article .info_data_comet{
     font-weight: 100;
 }
 article .img_post{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 article .img_post img{
     width: 100%;
     height: auto;
 }
 article .titulo_post{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: #000;
     font-size: 20px;
 }
 article .resumo_post{
     font-size: 14px;
     color: #727272;
-    margin-bottom: 10px;
 }
 article .info_bio {
     font-size: 10px;
     color: #727272;
-    
 }
 article .info_bio a{
     color: #727272;
+}
+.texto_anunucio{
+    padding: 15px;
+    margin-bottom: 30px;
+    color: #727272;
+    border-bottom: 1px solid #cfcdcd;
+}
+.texto_anun img{
+    width: 30px;
+    margin-right: 10px;
+}
+.texto_anun{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #727272;
+}
+.texto_anun a{ 
+    border-bottom: 1px dashed ;
+    color:rgb(8, 8, 156);
+    text-decoration:none;
+}
+.next_pag a{
+    display: flex;
+    margin-right: 15px;
+    justify-content: right;
+    text-decoration:none;
+    color:rgb(8, 8, 156);
+    border-bottom: 1px dashed ;
 }
