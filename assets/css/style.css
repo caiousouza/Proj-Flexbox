@@ -282,7 +282,58 @@ article .info_bio a{
     display: flex;
     margin-right: 15px;
     justify-content: right;
-    text-decoration:none;
     color:rgb(8, 8, 156);
-    border-bottom: 1px dashed ;
+}
+footer{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    
+}
+.footer_botton{
+    display: flex; 
+}
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #ffffff;
+
+}
+.fm1{
+    background-color: #39aae1;
+}
+.fm2{
+    background-color: #0079c7;
+}
+.fm3{
+    background-color: #2b4c99;    
+}
+.footer_botton a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color:#ffffff;
+}
+.footer_area{
+    display: flex;
+}
+.area_item{
+    flex: 1;
+    color:#ffffff;
+}
+.flexColumn{
+    flex-direction:column;
+}
+footer .anuncio_subtitulo{
+    color: #ffffff;
+}
+.footer_copy{
+    border-top: 1px solid #c2c2c2;
+    color: #c2c2c2;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer_copy a{
+    color: #ffffff;
 }
