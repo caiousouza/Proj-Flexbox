@@ -296,7 +296,6 @@ footer{
 .fm1, .fm2, .fm3{
     flex: 1;
     color: #ffffff;
-
 }
 .fm1{
     background-color: #39aae1;
@@ -335,5 +334,18 @@ footer .anuncio_subtitulo{
     margin-top: 30px;
 }
 .footer_copy a{
+    color: #ffffff;
+}
+.fm1_titulo, .fm2_titulo, .fm3_titulo{
+    font-size: 25px;
+}
+.fm1_texto, .fm2_texto, .fm3_texto{
+    font-size: 15px;
+}
+.footer_area{
+    display: flex;
+}
+.area_item1, .area_item2, .area_item3{
+    flex: 1;
     color: #ffffff;
 }
