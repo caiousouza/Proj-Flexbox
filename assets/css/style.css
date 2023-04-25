@@ -286,7 +286,7 @@ article .info_bio a{
 }
 footer{
     display: flex;
-    background-color: #000;
+    background-color: #1b1b1b;
     justify-content: center;
     
 }
@@ -348,4 +348,35 @@ footer .anuncio_subtitulo{
 .area_item1, .area_item2, .area_item3{
     flex: 1;
     color: #ffffff;
+}
+.anuncio_text{
+    margin-top: 30px;
+    color: #807f7f;
+}
+.inf{
+    display: flex;
+    color: #807f7f;
+}
+.inf_nome{
+    margin-right: 40px;
+}
+.inf_number a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.invisi{
+    color: #33333300;
+}
+.redes_img{
+    display: flex;
+}
+.redes_img img{
+    width: 20px;
+    background-color: #3a3a3a;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 2px;
+}
+.post1{
+    margin-top: 30px;
 }
